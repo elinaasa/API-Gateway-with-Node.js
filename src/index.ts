@@ -1,6 +1,7 @@
 import app from './app';
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Listening: http://localhost:${port}`);
+const PORT = process.env.PORT || 3008;
+
+app.listen(PORT, () => {
+  console.log(`Gateway is running on port ${PORT}`);
 });
